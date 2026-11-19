@@ -1,0 +1,35 @@
+
+import React from 'react';
+import { View } from 'react-native';
+
+export default function Ex09() {
+  return (
+    <View
+      style={{ flex: 1, flexDirection: 'column', justifyContent: 'space-around'}}
+    >
+      {/* แถวที่ 1 สีเขียว */}
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between',}}
+      >
+        <View style={{ width: 100, height: 100, backgroundColor: '#50E3C2' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: '#50E3C2' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: '#50E3C2' }} />
+      </View>
+
+      {/* แถวที่ 2 สีน้ำเงิน */}
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between',}}
+      >
+        <View style={{ width: 100, height: 100, backgroundColor: '#4A90E2' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: '#4A90E2' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: '#4A90E2' }} />
+      </View>
+
+      {/* แถวที่ 3 สีม่วง */}
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between',}}
+      >
+        <View style={{ width: 100, height: 100, backgroundColor: '#9013FE' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: '#9013FE' }} />
+        <View style={{ width: 100, height: 100, backgroundColor: '#9013FE' }} />
+      </View>
+    </View>
+  );
+}
